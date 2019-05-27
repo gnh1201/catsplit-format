@@ -2,7 +2,7 @@
 Catsplit is data interaction format without rich or high-cost syntax parsers.
 
 # Background
-We already use a common file format such as JSON or XML, but ANSI-like(e.g. ANSI/ISO SQL) data interaction formats are still required in the field. We propose a new format that is human-readable and capable of inter-converting to JSON and XML.
+We already use a common file format such as JSON or XML, but ANSI-like(e.g. ANSI/ISO SQL) data interaction formats are still required in the field. We propose a new format that is human-readable and capable of inter-converting to others.
 
 ## Example of Catsplit (our format)
 ```
