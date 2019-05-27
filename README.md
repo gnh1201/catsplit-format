@@ -1,6 +1,6 @@
 # Catsplit
 
-Catsplit is data interaction format without rich syntax parsers.
+Catsplit is data interaction format without rich or high-cost syntax parsers.
 
 ## Example of Catsplit (our format)
 ```
