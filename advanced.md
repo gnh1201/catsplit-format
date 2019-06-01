@@ -13,16 +13,17 @@
 ```
 
 in the one line:
-
-`((("John",(20,22)),("Jane",(30,31))),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"("Age1","Age2"),"Organizaton","Id"())`
-
+```
+((("John",(20,22)),("Jane",(30,31))),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"("Age1","Age2"),"Organizaton","Id"())
+```
 or
-
-`((('John',(20,22)),('Jane',(30,31))),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())`
-
+```
+((('John',(20,22)),('Jane',(30,31))),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())
+```
 or (use `rotation mode`(experimental))
-
-`(('John',(20,22),'Jane',(30,31)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())`
+```
+(('John',(20,22),'Jane',(30,31)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())
+```
 
 ## to JSON
 ```
@@ -49,8 +50,9 @@ or (use `rotation mode`(experimental))
 ```
 
 in the one line:
-
-`{"Person":[{"Name":"John","Age":[20,22]},{"Name":"Jane","Age":[30,31]}],"Organization":"Catsplit Team",Id:[1,2,3,4,5]}`
+```
+{"Person":[{"Name":"John","Age":[20,22]},{"Name":"Jane","Age":[30,31]}],"Organization":"Catsplit Team",Id:[1,2,3,4,5]}
+```
 
 ## Contact us
 - support@exts.kr
