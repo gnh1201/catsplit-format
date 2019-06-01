@@ -25,7 +25,7 @@ or (use `rotation mode`(experimental))
 (('John',(20,22),'Jane',(30,31)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())
 ```
 
-## to JSON
+## Catsplit to JSON
 ```
 {
     "Person": [
