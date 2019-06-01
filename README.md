@@ -31,12 +31,12 @@ application/catsplit
 ```
 
 ## [Guide] Convert to SQL `Insert` Syntax
-Catsplit:
+(before) Catsplit:
 ```
 ('oh my error','http://sys.local','26','1','1')<=(Message,URL,Line,Column,Stack)
 ```
 
-SQL `Insert`:
+(after) SQL `Insert`:
 ```
 insert into dummy(Message,URL,Line,Column,Stack) values ('oh my error','http://sys.local','26','1','1')
 ```
