@@ -1,6 +1,6 @@
 # Advanced of Catsplit (draft)
 
-## Example of with generics and array
+## Example with array
 ```
 (
     (
@@ -8,7 +8,7 @@
         ('Jane',30)
     ),
     'Catsplit Team'
-)<=(Person<(Name,Age)>[],Organization)
+)<=(Person(Name,Age),Organization)
 ```
 
 in the one line:
