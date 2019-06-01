@@ -13,7 +13,7 @@
 
 in the one line:
 
-`((('John',20),('Jane',30)),'Casplit Team')<=(Person<(Name,Age))>[],Organization)`
+`((('John',20),('Jane',30)),'Catsplit Team')<=(Person<(Name,Age))>[],Organization)`
 
 ## to JSON
 ```
