@@ -30,11 +30,11 @@ or (use `rotation mode`(experimental))
     "Person": [
         {
             "Name": "John",
-            "Age": 20
+            "Age": [20, 22]
         },
         {
             "Name": "Jane",
-            "Age": 30
+            "Age": [30, 31]
         }
     ],
     "Organization": "Catsplit Team",
@@ -44,7 +44,7 @@ or (use `rotation mode`(experimental))
 
 in the one line:
 
-`{"Person":[{"Name":"John","Age":20},{"Name":"Jane","Age":30}],"Organization":"Catsplit Team",Id:[1,2,3,4,5]}`
+`{"Person":[{"Name":"John","Age":[20,22]},{"Name":"Jane","Age":[30,31]}],"Organization":"Catsplit Team",Id:[1,2,3,4,5]}`
 
 ## Contact us
 - support@exts.kr
