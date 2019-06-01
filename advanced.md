@@ -1,6 +1,6 @@
 # Advanced of Catsplit (draft)
 
-## Example with array
+## Example with dict/list
 ```
 (
     (
