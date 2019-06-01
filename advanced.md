@@ -8,12 +8,12 @@
         ('Jane',30)
     ),
     'Catsplit Team'
-)<=(Person<(Name,Age))>[],Organization)
+)<=(Person<(Name,Age)>[],Organization)
 ```
 
 in the one line:
 
-`((('John',20),('Jane',30)),'Catsplit Team')<=(Person<(Name,Age))>[],Organization)`
+`((('John',20),('Jane',30)),'Catsplit Team')<=(Person<(Name,Age)>[],Organization)`
 
 ## to JSON
 ```
