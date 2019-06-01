@@ -16,6 +16,10 @@ in the one line:
 
 `((("John",20),("Jane",30)),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"),"Organization","Id"())`
 
+or
+
+`((('John',20),('Jane',30)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age),Organization,Id())`
+
 ## to JSON
 ```
 {
