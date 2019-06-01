@@ -25,5 +25,10 @@ We already use a common file format such as JSON or XML, but ANSI-like(e.g. ANSI
 </item>
 ```
 
+## [NEW] MIME Type (Content-Type)
+```
+application/catsplit
+```
+
 ## contact us
 - support@exts.kr
