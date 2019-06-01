@@ -4,25 +4,25 @@
 ```
 (
     (
-        ("John", 20),
-        ("Jane", 30)
+        ("John", (20, 22)),
+        ("Jane", (30, 31))
     ),
     "Catsplit Team",
     (1, 2, 3, 4, 5)
-)<=("Person"("Name", "Age"), "Organization", "Id"())
+)<=("Person"("Name", "Age"("age1,"age2"), "Organization", "Id"())
 ```
 
 in the one line:
 
-`((("John",20),("Jane",30)),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"),"Organization","Id"())`
+`((("John",(20,22)),("Jane",(30,31))),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"("age1","age2"),"Organization","Id"())`
 
 or
 
-`((('John',20),('Jane',30)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age),Organization,Id())`
+`((('John',(20,22)),('Jane',(30,31))),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age),Organization,Id())`
 
 or (use `rotation mode`(experimental))
 
-`(('John',20,'Jane',30),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age),Organization,Id())`
+`(('John',(20,22),'Jane',(30,31)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age),Organization,Id())`
 
 ## to JSON
 ```
