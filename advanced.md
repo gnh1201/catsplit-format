@@ -20,12 +20,12 @@ in the one line:
 {
     "Person": [
         {
-            "name": "John",
-            "age": 20
+            "Name": "John",
+            "Age": 20
         },
         {
-            "name": "Jane",
-            "age": 30
+            "Name": "Jane",
+            "Age": 30
         }
     ],
     "Organization": "Catsplit Team"
@@ -34,7 +34,7 @@ in the one line:
 
 in the one line:
 
-`{"Person":[{"name":"John",age:20},{"name":"Jane","age":30}],"Organization":"Catsplit Team"}`
+`{"Person":[{"Name":"John","Age":20},{"Name":"Jane","Age":30}],"Organization":"Catsplit Team"}`
 
 ## Contact us
 - support@exts.kr
