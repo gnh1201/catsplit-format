@@ -1,4 +1,5 @@
 # Advanced of Catsplit (draft)
+This specification describes a complex application example of Catsplit.
 
 ## Complex example of Catsplit
 ```
