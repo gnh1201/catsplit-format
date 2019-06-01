@@ -37,8 +37,8 @@ or (use `rotation mode`(experimental))
             "Age": 30
         }
     ],
+    "Organization": "Catsplit Team",
     "Id": [1, 2, 3, 4, 5]
-    "Organization": "Catsplit Team"
 }
 ```
 
