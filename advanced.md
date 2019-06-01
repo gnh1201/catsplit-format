@@ -51,7 +51,7 @@ or (use `rotation mode`(experimental))
 
 in the one line:
 ```
-{"Person":[{"Name":"John","Age":[20,22]},{"Name":"Jane","Age":[30,31]}],"Organization":"Catsplit Team",Id:[1,2,3,4,5]}
+{"Person":[{"Name":"John",{"Age1":20,"Age2":22}},{"Name":"Jane","Age":{"Age1":30,"Age2":31}],"Organization":"Catsplit Team",Id:[1,2,3,4,5]}
 ```
 
 ## Contact us
