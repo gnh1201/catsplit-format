@@ -9,20 +9,20 @@
     ),
     "Catsplit Team",
     (1, 2, 3, 4, 5)
-)<=("Person"("Name", "Age"("age1,"age2"), "Organization", "Id"())
+)<=("Person"("Name", "Age"("Age1, "Age2"), "Organization", "Id"())
 ```
 
 in the one line:
 
-`((("John",(20,22)),("Jane",(30,31))),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"("age1","age2"),"Organization","Id"())`
+`((("John",(20,22)),("Jane",(30,31))),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"("Age1","Age2"),"Organizaton","Id"())`
 
 or
 
-`((('John',(20,22)),('Jane',(30,31))),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age),Organization,Id())`
+`((('John',(20,22)),('Jane',(30,31))),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())`
 
 or (use `rotation mode`(experimental))
 
-`(('John',(20,22),'Jane',(30,31)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age),Organization,Id())`
+`(('John',(20,22),'Jane',(30,31)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())`
 
 ## to JSON
 ```
@@ -30,11 +30,17 @@ or (use `rotation mode`(experimental))
     "Person": [
         {
             "Name": "John",
-            "Age": [20, 22]
+            "Age": {
+                "Age1": 20,
+                "Age2": 22
+            }
         },
         {
             "Name": "Jane",
-            "Age": [30, 31]
+            "Age": {
+                "Age1": 30,
+                "Age2": 31
+            }
         }
     ],
     "Organization": "Catsplit Team",
