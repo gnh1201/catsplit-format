@@ -33,5 +33,9 @@ application/catsplit
 ## [NEW] Advenced examples
 - [ADVANCED.md](https://github.com/gnh1201/catsplit-format/blob/master/ADVANCED.md)
 
+## Community
+- https://discord.gg/7tXwTq (#catsplit)
+- https://open.kakao.com/o/g9spGfrb
+
 ## contact us
 - support@exts.kr
