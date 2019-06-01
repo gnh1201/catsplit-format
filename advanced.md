@@ -4,17 +4,17 @@
 ```
 (
     (
-        ('John', 20),
-        ('Jane', 30)
+        ("John", 20),
+        ("Jane", 30)
     ),
-    'Catsplit Team',
+    "Catsplit Team",
     (1, 2, 3, 4, 5)
-)<=(Person(Name, Age), Organization, Id())
+)<=("Person"("Name", "Age"), "Organization", "Id"())
 ```
 
 in the one line:
 
-`((('John',20),('Jane',30)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age),Organization,Id())`
+`((("John",20),("Jane",30)),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"),"Organization","Id"())`
 
 ## to JSON
 ```
