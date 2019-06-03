@@ -4,7 +4,10 @@
 ## Symbols
 ```
 <=
-Separator of data area and defines area
+Separator of `data area`(left) and `defines area`(right)
+
+=>
+Separator of `data area`(right) and `defines area`(left)
 
 ()
 List, Array
