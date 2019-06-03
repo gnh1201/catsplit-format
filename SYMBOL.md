@@ -19,7 +19,7 @@ Dict, Key-Value Array
 Separator of tokens
 
 _ (underscore)
-Inherit from parent data structure
+Inherit defines from parent `data defines`(data structrue)
 
 * (wildcard)
 Allow use Catsplit format in the `data area`
