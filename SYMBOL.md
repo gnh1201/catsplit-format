@@ -22,7 +22,7 @@ _ (underscore)
 Inherit from parent data structure
 
 * (wildcard)
-Allow use Catsplit format in data area
+Allow use Catsplit format in the `data area`
 ```
 
 ## Contact us
