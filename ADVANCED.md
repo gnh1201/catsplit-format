@@ -104,7 +104,7 @@ in the one line:
 
 ---
 
-## 3. Nested Object <Part 1> (example of expression underscore `_`, deconstruct `~`)
+## 3. Nested Object <Part 1> (expression underscore `_`, deconstruct `~`)
 ```
 (
     (
@@ -164,7 +164,7 @@ in the one line:
 
 ---
 
-## 4. Nested Object <Part 2> (example of expression underscore `_`, expression deconstruct `~`)
+## 4. Nested Object <Part 2> (expression wildcard `_`, deconstruct `~`)
 ```
 (
     (
