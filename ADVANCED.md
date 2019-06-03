@@ -138,9 +138,10 @@ in the one line:
             ),
             (
                 "Anna",
-                (30, 31), (
+                (30, 31),
+                (
                     ("Jana", (7, 8), ()),
-                    ("Juna",(2, 3), ())
+                    ("Juna", (2, 3), ())
                 )
             ),
         ),
@@ -162,7 +163,7 @@ in the one line:
 
 ---
 
-## Nested Object <Part 2> (example of expression wildcard `*`)
+## 4. Nested Object <Part 2> (example of expression wildcard `*`)
 ```
 (
     (
