@@ -104,7 +104,7 @@ in the one line:
 
 ---
 
-## 3. Nested Object <Part 1> (example of expression underscore `_`)
+## 3. Nested Object <Part 1> (example of expression underscore `_`, expression deconstruct '~')
 ```
 (
     (
@@ -113,15 +113,15 @@ in the one line:
                 "John",
                 (20, 22),
                 (
-                    ("James", (0, 1), ())
+                    ("James", (0, 1))
                 )
             ),
             (
                 "Jane",
                 (30, 31),
                 (
-                    ("Kana", (7, 8), ()),
-                    ("Kuna", (2, 3), ())
+                    ("Kana", (7, 8)),
+                    ("Kuna", (2, 3))
                 )
             ),
         ),
@@ -132,16 +132,17 @@ in the one line:
         (
             (
                 "James",
-                (20, 22), (
-                    ("James", (0, 1), ())
+                (20, 22),
+                (
+                    ("James", (0, 1))
                 )
             ),
             (
                 "Anna",
                 (30, 31),
                 (
-                    ("Jana", (7, 8), ()),
-                    ("Juna", (2, 3), ())
+                    ("Jana", (7, 8)),
+                    ("Juna", (2, 3))
                 )
             ),
         ),
@@ -153,7 +154,7 @@ in the one line:
         "Person"(
             "Name",
             "Age"("Age1", "Age2"),
-            "Children"(_)
+            ~"Children"(_)
         ),
         Organization,
         Id()
@@ -163,7 +164,7 @@ in the one line:
 
 ---
 
-## 4. Nested Object <Part 2> (example of expression wildcard `*`)
+## 4. Nested Object <Part 2> (example of expression underscore `_`, expression deconstruct '~')
 ```
 (
     (
@@ -211,7 +212,7 @@ in the one line:
         "Person"(
             "Name",
             "Age"("Age1", "Age2"),
-            "Children"(*)
+            ~"Children"(*)
         ),
         Organization,
         Id()
