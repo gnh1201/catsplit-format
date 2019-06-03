@@ -25,7 +25,7 @@ Inherit defines from parent `data defines`(data structrue)
 Allow use Catsplit format in the `data area`
 
 ~ (decontruct)
-Allow skip pass value to variable
+Allow skip pass to variable, Only for last position.
 ```
 
 ## Contact us
