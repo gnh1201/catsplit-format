@@ -15,15 +15,7 @@ This specification describes a complex application example of Catsplit.
 
 in the one line:
 ```
-((("John",(20,22)),("Jane",(30,31))),"Catsplit Team",(1,2,3,4,5))<=("Person"("Name","Age"("Age1","Age2"),"Organizaton","Id"())
-```
-or
-```
 ((('John',(20,22)),('Jane',(30,31))),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())
-```
-or (use `rotation mode`(experimental))
-```
-(('John',(20,22),'Jane',(30,31)),'Catsplit Team',(1,2,3,4,5))<=(Person(Name,Age(Age1,Age2)),Organization,Id())
 ```
 
 ## 1-1. Convert to JSON (from Example 1)
