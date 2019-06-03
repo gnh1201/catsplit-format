@@ -10,7 +10,14 @@ This specification describes a complex application example of Catsplit.
     ),
     "Catsplit Team",
     (1, 2, 3, 4, 5)
-)<=("Person"("Name", "Age"("Age1, "Age2"), "Organization", "Id"())
+)<=(
+    "Person"(
+        "Name",
+        "Age"("Age1, "Age2"),
+        "Organization",
+        "Id"()
+    )
+)
 ```
 
 in the one line:
