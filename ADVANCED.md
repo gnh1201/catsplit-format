@@ -5,8 +5,14 @@ This specification describes a complex application example of Catsplit.
 ```
 (
     (
-        ("John", (20, 22)),
-        ("Jane", (30, 31))
+        (
+            "John",
+            (20, 22)
+        ),
+        (
+            "Jane",
+            (30, 31)
+        )
     ),
     "Catsplit Team",
     (1, 2, 3, 4, 5)
