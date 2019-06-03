@@ -55,6 +55,7 @@ in the one line:
 {"Person":[{"Name":"John",{"Age1":20,"Age2":22}},{"Name":"Jane","Age":{"Age1":30,"Age2":31}],"Organization":"Catsplit Team",Id:[1,2,3,4,5]}
 ```
 
+
 ## 2. Anonymous List (Anonymous Array)
 ```
 (
