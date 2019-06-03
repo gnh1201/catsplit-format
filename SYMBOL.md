@@ -23,6 +23,9 @@ Inherit defines from parent `data defines`(data structrue)
 
 * (wildcard)
 Allow use Catsplit format in the `data area`
+
+~ (decontruct)
+Allow skip pass value to variable
 ```
 
 ## Contact us
