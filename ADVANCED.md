@@ -13,10 +13,10 @@ This specification describes a complex application example of Catsplit.
 )<=(
     "Person"(
         "Name",
-        "Age"("Age1, "Age2"),
-        "Organization",
-        "Id"()
-    )
+        "Age"("Age1, "Age2")
+    ),
+    "Organization",
+    "Id"()
 )
 ```
 
