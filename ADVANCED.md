@@ -19,7 +19,7 @@ This specification describes a complex application example of Catsplit.
 )<=(
     "Person"(
         "Name",
-        "Age"("Age1, "Age2")
+        "Age"("Age1", "Age2")
     ),
     "Organization",
     "Id"()
@@ -85,14 +85,14 @@ in the one line:
         "URL": "http://foo.local",
         "Line": 26,
         "Column": 1,
-        "Stack":1
+        "Stack": 1
     },
     {
         "Message": "oh my error",
         "URL": "http://bar.local",
         "Line": 26,
         "Column": 1,
-        "Stack":1
+        "Stack": 1
     }
 ]
 ```
