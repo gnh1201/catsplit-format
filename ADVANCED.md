@@ -55,6 +55,7 @@ in the one line:
 {"Person":[{"Name":"John",{"Age1":20,"Age2":22}},{"Name":"Jane","Age":{"Age1":30,"Age2":31}],"Organization":"Catsplit Team",Id:[1,2,3,4,5]}
 ```
 
+---
 
 ## 2. Anonymous List (Anonymous Array)
 ```
@@ -95,6 +96,8 @@ in the one line:
 ```
 [{"Message":"oh my error","URL":"http://foo.local","Line":26,"Column":1,"Stack":1},{"Message":"oh my error","URL":"http://bar.local","Line":26,"Column":1,"Stack":1}]
 ```
+
+---
 
 ## Contact us
 - support@exts.kr
