@@ -25,9 +25,9 @@ We already use a common file format such as JSON or XML, but ANSI-like(e.g. ANSI
 </item>
 ```
 
-## [NEW] MIME Type (Content-Type)
+## [NEW] MIME Type (Content-Type), E_MAGIC, Extension
 ```
-application/catsplit
+('application/catsplit', 'CS', 'CSPT')<=(MIME, E_MAGIC, Extension)
 ```
 
 ## [NEW] Advenced examples
