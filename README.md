@@ -27,7 +27,7 @@ We already use a common file format such as JSON or XML, but ANSI-like(e.g. ANSI
 
 ## [NEW] MIME Type (Content-Type), E_MAGIC, Extension
 ```
-('application/catsplit','CS','CSPT')<=(MIME,E_MAGIC,Extension)
+('application/catsplit','CS','CSPT','cspt')<=(MIME,E_MAGIC,Extension,Header)
 ```
 
 ## [NEW] Advenced examples
