@@ -26,6 +26,9 @@ Allow use Catsplit format in the `data area`
 
 ~ (decontruct)
 Allow skip pass to variable, Only for last position.
+
+@ (at)
+Allow load external file in structure area
 ```
 
 ## Contact us
