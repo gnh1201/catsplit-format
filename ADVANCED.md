@@ -164,7 +164,7 @@ in the one line:
 
 ---
 
-## 4. Nested Object <Part 2> (expression wildcard `_`, deconstruct `~`)
+## 4. Nested Object <Part 2> (expression wildcard `*`, deconstruct `~`)
 ```
 (
     (
