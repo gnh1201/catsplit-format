@@ -1,6 +1,6 @@
 # Real-world examples of Catsplit format (draft)
 
-# structure
+## example of structure area
 ```
 Material(
     (
