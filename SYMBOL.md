@@ -25,10 +25,13 @@ Inherit defines from parent `data defines`(data structrue)
 Allow use Catsplit format in the `data area`
 
 ~ (decontruct)
-Allow skip pass to variable, Only for last position.
+Allow skip pass to variable, Only for last position
 
 @ (at)
 Allow load external file in structure area
+
+! (attention)
+Allow RAW data that does not fit the given structure
 ```
 
 ## Contact us
