@@ -25,28 +25,25 @@ We already use a common file format such as JSON or XML, but ANSI-like(e.g. ANSI
 </item>
 ```
 
-## [NEW] MIME Type (Content-Type), E_MAGIC, Extension
+## MIME Type (Content-Type), E_MAGIC, Extension
 ```
 ('application/catsplit','CS','CSPT','cspt')<=(MIME,E_MAGIC,Extension,Header)
 ```
 
-## [NEW] Advenced examples
-- [ADVANCED.md](https://github.com/gnh1201/catsplit-format/blob/master/ADVANCED.md)
+## Advanced examples
+- See [ADVANCED.md](https://github.com/gnh1201/catsplit-format/blob/master/ADVANCED.md)
 
-## [Guide] Convert to SQL `Insert` Syntax
-(before) Catsplit:
+## Conversion to SQL `insert` statement
+Catsplit:
 ```
 ('oh my error','http://sys.local','26','1','1')<=(Message,URL,Line,Column,Stack)
 ```
 
-(after) SQL `Insert`:
+SQL `Insert`:
 ```
 insert into dummy(Message,URL,Line,Column,Stack) values ('oh my error','http://sys.local','26','1','1')
 ```
 
-## Community
-- https://discord.gg/7tXwTq (#catsplit)
-- https://open.kakao.com/o/g9spGfrb
-
-## contact us
-- support@exts.kr
+## Contact us
+* abuse@catswords.net
+* ActivityPub [@catswords_oss@catswords.net](https://catswords.social/@catswords_oss)
