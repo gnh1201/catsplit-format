@@ -45,5 +45,5 @@ insert into dummy(Message,URL,Line,Column,Stack) values ('oh my error','http://s
 ```
 
 ## Contact us
-* abuse@catswords.net
+* oss@catswords.re.kr
 * ActivityPub [@catswords_oss@catswords.net](https://catswords.social/@catswords_oss)
